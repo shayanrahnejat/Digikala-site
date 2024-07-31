@@ -208,31 +208,3 @@
     }
   }
 }
-
-.slide_1 {
-  width: 100%;
-  height: 20vh;
-  .swiper {
-    width: 100%;
-    height: 100%;
-  }
-
-  .swiper-slide {
-    text-align: center;
-    font-size: 10px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 75px;
-    height: 75px;
-    swiper-slide-prev, swiper-slide-active, swiper-slide-next{
-      width: 75px !important;
-      height: 75px !important;
-    }
-    img{
-      width: 75px;
-      height: 75px;
-    }
-  }
-}
