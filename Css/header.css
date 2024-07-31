@@ -1,0 +1,238 @@
+@font-face {
+  font-family: Iran;
+  src: url(../font/iranyekanwebregular.e31c09af.woff2);
+}
+.wrapper {
+  & header {
+    width: 100%;
+    height: 108px;
+
+    .top {
+      position: relative;
+      display: flex;
+      flex-flow: row wrap;
+      width: 98%;
+      height: 68px;
+      margin: 0 auto;
+      padding: 12px 0;
+      align-items: center;
+      .right {
+        width: 50%;
+        height: 44px;
+        display: flex;
+        flex-flow: row nowrap;
+        .icon {
+          width: fit-content;
+          height: fit-content;
+          margin: auto 0;
+          margin-left: 20px;
+          padding-top: 2px;
+          & a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            margin: auto 0;
+          }
+        }
+
+        .search {
+          width: 76%;
+          height: 100%;
+          background-color: #f0f0f1;
+          border-radius: 8px;
+          -webkit-border-radius: 8px;
+          -moz-border-radius: 8px;
+          -ms-border-radius: 8px;
+          -o-border-radius: 8px;
+          & form {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            padding: 0 16px;
+            & label {
+              width: 24px;
+              height: 24px;
+              align-items: center;
+              margin: auto 0;
+            }
+            & input {
+              display: block;
+              width: 86%;
+              height: 100%;
+              border: 0;
+              outline: unset;
+              background-color: transparent;
+              padding: 0 16px;
+              font-family: Iran;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+      .left {
+        width: 16%;
+        height: 44px;
+        display: flex;
+        flex-flow: row nowrap;
+        position: absolute;
+        left: 0;
+        .register {
+          width: 68%;
+          height: 100%;
+          & a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            & button {
+              background-color: white;
+              border-radius: 8px;
+              -webkit-border-radius: 8px;
+              -moz-border-radius: 8px;
+              -ms-border-radius: 8px;
+              -o-border-radius: 8px;
+              font-family: Iran;
+              font-size: 12px;
+              display: flex;
+              flex-flow: row wrap;
+              width: 100%;
+              height: 100%;
+              align-items: center;
+              cursor: pointer;
+              border: 1px solid #e0e0e2;
+              & svg {
+                width: 24px;
+                height: 24px;
+                margin: 0 12px;
+              }
+            }
+          }
+        }
+        .sep {
+          width: 1px;
+          height: 24px;
+          border: 1px solid #e0e0e2;
+          margin: auto 12px;
+        }
+        .buy {
+          width: 20%;
+          height: 100%;
+          & a {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            & svg {
+              width: 24px;
+              height: 24px;
+              display: block;
+              padding: 0;
+              margin: auto 0;
+              position: absolute;
+              left: 0;
+            }
+          }
+        }
+      }
+    }
+    .bottom {
+      position: relative;
+      display: flex;
+      flex-flow: row nowrap;
+      width: 98%;
+      height: 40px;
+      margin: 0 auto;
+      align-items: center;
+      .right_1 {
+        width: 80%;
+        height: 100%;
+        & ul {
+          display: flex;
+          flex-flow: row wrap;
+          width: fit-content;
+          height: 100%;
+          & li {
+            width: fit-content;
+            height: 100%;
+            list-style-type: none;
+            padding: 0 12px;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            & a {
+              width: fit-content;
+              text-decoration: none;
+              font-family: Iran;
+              font-size: 12px;
+              color: #62666d;
+            }
+            & span {
+              width: 1px;
+              height: 16px;
+              border: 1px solid #b3bdcf;
+              margin-right: 12px;
+            }
+          }
+          .cat {
+            font-size: 14px;
+            font-weight: 600;
+            color: #3f4064;
+          }
+        }
+      }
+    }
+    .left_1 {
+      width: 20%;
+      text-align: left;
+      .cont {
+        display: inline-block;
+        a {
+          font-family: Iran;
+          font-size: 12px;
+          display: flex;
+          height: 100%;
+          width: 100%;
+          flex-flow: row wrap;
+          align-items: center;
+          text-decoration: none;
+          color: #62666d;
+          & svg {
+            width: 20px;
+            height: 20px;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.slide_1 {
+  width: 100%;
+  height: 20vh;
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 10px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    swiper-slide-prev, swiper-slide-active, swiper-slide-next{
+      width: 75px !important;
+      height: 75px !important;
+    }
+    img{
+      width: 75px;
+      height: 75px;
+    }
+  }
+}
