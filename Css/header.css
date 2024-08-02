@@ -2,6 +2,7 @@
   font-family: Iran;
   src: url(../font/iranyekanwebregular.e31c09af.woff2);
 }
+/* header start */
 .wrapper {
   & header {
     width: 100%;
@@ -208,3 +209,4 @@
     }
   }
 }
+/* header end */
