@@ -1,15 +1,15 @@
 @import "../swiper/swiper-bundle.min.css";
 @font-face {
-    font-family: Iran;
-    src: url(../font/iranyekanwebregular.e31c09af.woff2);
-  }
-.swiper {
+  font-family: Iran;
+  src: url(../font/iranyekanwebregular.e31c09af.woff2);
+}
+.swiper1 {
   width: 90%;
   height: fit-content;
-  margin-top: 15px; 
+  margin-top: 15px;
   .swiper-wrapper {
     .swiper-slide {
-      margin: 0;  
+      margin: 0;
       display: flex;
       flex-direction: column;
       flex-wrap: nowrap;
@@ -17,24 +17,33 @@
       width: 80px !important;
       height: fit-content !important;
       text-align: center;
-      .slideimage {
-        display: inline-block;
+      .container {
         width: 80px;
         height: 80px;
-        background-color: blue;
         box-sizing: border-box;
+        border:3px solid #91499c;
         border-radius: 100%;
         -webkit-border-radius: 100%;
         -moz-border-radius: 100%;
         -ms-border-radius: 100%;
         -o-border-radius: 100%;
-        border: 5px solid #91499c;
-        margin: auto;
+        .slideimage {
+          width: 70px;
+          height: 70px;
+          background-color: blue;
+          border-radius: 100%;
+          -webkit-border-radius: 100%;
+          -moz-border-radius: 100%;
+          -ms-border-radius: 100%;
+          -o-border-radius: 100%;
+          margin: 2.6px auto;
+        }
       }
-      h4{
+
+      h4 {
         font-family: Iran;
         font-weight: 100;
-        font-size: 12px;
+        font-size: 10px;
         margin: 0;
       }
     }
