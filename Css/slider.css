@@ -63,6 +63,7 @@
         width: 100vw;
         height: inherit;
         object-fit: cover;
+        object-position: top;
       }
     }
   }
