@@ -3,6 +3,7 @@
   font-family: Iran;
   src: url(../font/iranyekanwebregular.e31c09af.woff2);
 }
+/* slider1 start */
 .swiper1 {
   width: 90%;
   height: fit-content;
@@ -50,6 +51,9 @@
     }
   }
 }
+/* slider1 end */
+
+/* slider2 start */
 .swiper2 {
   width: 100%;
   .swiper-wrapper {
@@ -63,7 +67,9 @@
     }
   }
 }
+/* slider2 end */
 
+/* slider3 start */
 .swiper3 {
   width: 88vw !important;
   height: 42vh !important;
@@ -95,6 +101,7 @@
       -o-border-radius: 8px 0 0 8px;
     }
     .swiper-slide {
+      overflow: hidden;
       background-color: white;
       font-family: Iran;
       font-size: 12px;
@@ -102,7 +109,35 @@
       height: 90%;
       padding: 12px !important;
       margin: 12px 2px !important;
-
+      .price{
+        width: 100%;
+        display: flex;
+        flex-flow: row-reverse;
+        & p{
+          width: 80%;
+          text-align: left;
+          font-size: 13px;
+        }
+        .off{
+          width: 20%;
+          background-color: #d92f4e;
+          text-align: center;
+          border-radius: 8px;
+          -webkit-border-radius: 8px;
+          -moz-border-radius: 8px;
+          -ms-border-radius: 8px;
+          -o-border-radius: 8px;
+          color: white;
+}
+      }
+      .old{
+        text-align: left;
+        width: 100%;
+        display: inline-block;
+        font-family: Iran;
+        font-weight:100;
+        color: #C0C2C5;
+      }
       .sepcon {
         text-align: center;
         background-color: #d92f4e !important;
@@ -122,9 +157,6 @@
             -moz-border-radius: 4px;
             -ms-border-radius: 4px;
             -o-border-radius: 4px;
-          }
-          .price{
-            width: 100%;
           }
           .space {
             color: white;
@@ -149,10 +181,14 @@
       }
       .prodImage {
         & img {
-          width: 132px;
-          height: 132px;
+          /* width: 132px;
+          height: 132px; */
+          width: 85%;
+          height: 85%;
+          object-fit: fill;
         }
       }
     }
   }
 }
+/* slider3 end */
