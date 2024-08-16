@@ -193,3 +193,43 @@
   }
 }
 /* slider3 end */
+
+/* slider4 start */
+.slider4{
+  width: fit-content;
+  margin: 20px auto;
+  height: 35vh;
+  border: 1px solid rgb(176, 170, 170);
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  .top{
+    display: flex;
+    margin: 30px 0;
+    justify-content: space-around;
+    & div{
+    display: flex;
+    text-align: center;
+    & p{
+      font-family: Iran;
+      font-size: 21px;
+    }
+  }}
+  .swiper4{
+    width: 90vw;
+    height: 20vh;
+    .swiper-slide{
+      margin: 0 !important;
+      
+    }
+    & img{
+      width: 110px;
+      height: 110px;
+      border: 1px solid rgb(241, 234, 234);
+
+    }
+  }
+}
+/* slider4 end */
