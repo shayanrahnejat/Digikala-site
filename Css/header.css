@@ -290,7 +290,6 @@
                   .phone {
                     display: none;
                   }
-
                 }
                 & li:hover {
                   background-color: white;
@@ -307,9 +306,13 @@
                       hue-rotate(355deg) brightness(96%);
                   }
                 }
+
               }
             }
             &:hover {
+              .phonemain{
+                display: block;
+              }
               .wrapcat {
                 display: block;
                 width: 100vw;

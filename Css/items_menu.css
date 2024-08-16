@@ -252,7 +252,7 @@
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-  & svg{
+  & svg {
     margin: auto 18px;
   }
   & > div {
@@ -265,14 +265,14 @@
       -moz-border-radius: 0 8px 8px 0;
       -ms-border-radius: 0 8px 8px 0;
       -o-border-radius: 0 8px 8px 0;
-}
+    }
     .right {
       border-radius: 8px 0 0 8px;
       -webkit-border-radius: 8px 0 0 8px;
       -moz-border-radius: 8px 0 0 8px;
       -ms-border-radius: 8px 0 0 8px;
       -o-border-radius: 8px 0 0 8px;
-}
+    }
     & div {
       background-color: whitesmoke;
       width: 17vw;
@@ -291,3 +291,70 @@
   }
 }
 /* items menu7 end */
+
+/* items menu8 start */
+.items_menu8 {
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  border: 1px solid rgb(241, 234, 234);
+  display: flex;
+  width: 90vw;
+  margin: 30px auto;
+  flex-flow: column;
+
+  .top {
+    display: flex;
+    margin: 10px auto;
+    & p {
+      font-family: Iran;
+      font-size: 21px;
+      margin: 20px 0;
+    }
+    & svg {
+      margin: auto 0;
+    }
+    & a {
+      position: absolute;
+      left: 6vw;
+      align-self: center;
+      text-decoration: none;
+      color: #19bfd3;
+      font-size: 18px;
+    }
+  }
+  .but {
+    display: flex;
+    flex-flow: row;
+    row-gap: 40px;
+    .col {
+      display: flex;
+      text-align: center;
+      height: 86px;
+      margin: 20px 0;
+      /* line-height: 86px; */
+    }
+    .texx {
+      font-family: Iran;
+      font-size: 12px;
+      width: fit-content;
+      margin: auto 0;
+    }
+    .texn {
+      font-family: Iran;
+      font-size: 26px;
+      width: fit-content;
+      margin: auto 0;
+      color: #19bfd3;
+      /* text-align: center; */
+    }
+
+    & img {
+      width: 86px;
+      height: 86px;
+    }
+  }
+}
+/* items menu8 end */
