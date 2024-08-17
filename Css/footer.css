@@ -136,4 +136,146 @@ footer {
     }
 
   }
+  .mid4{
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 97vw;
+    height: 11vh;
+    margin: auto;
+    background-color: #3C4B6D;
+    .right{
+      margin: auto 20px;
+      display: flex;
+      flex-flow: row;
+      & p{
+        margin: auto 15px;
+        color: white;
+        font-family: Iran;
+        font-size: 21px;
+      }
+      &> img{
+        width: 44px;
+        height: 44px;
+      }
+    }
+    .left{
+      display: flex;
+      column-gap: 1.3vw;
+      margin: auto 20px;
+      & svg{
+        width: 142px;
+        height: 44px;
+      }
+      .another{
+        width: 43px;
+        height: 44px;
+        background-color: white;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+}
+    }
+  }
+  .mid5{
+    margin: 20px auto;
+    width: 98vw;
+    display: flex;
+    flex-flow: row;
+    font-family: Iran;
+    justify-content: space-between;
+    .right{
+      width: 70%;
+      & h1{
+        font-size: 21px;
+        color: #62666D;
+        margin: 10px 0;
+      }
+      & p{
+        font-size: 12px;
+        color: #62666D;
+        height: 20vh;
+        overflow: hidden;
+      }
+      input[id="extend"]{
+        display: none;
+      }
+
+      .good{
+        color: #19BFD3;
+        font-family: Iran;
+        font-size: 12px;     
+        display: none; 
+        z-index: 0;  
+      }
+
+      input[id="extend"]:checked  ~ p{
+        overflow: visible;
+        height: fit-content;
+      } 
+      input[id="extend"]:checked ~ label[for="extend"]{
+        display: none;
+      }
+      input[id="extend"]:checked ~ .good{
+        display: block !important;
+      }
+      label[for="extend"]{
+        color: #19BFD3;
+        font-family: Iran;
+        font-size: 12px;
+      }
+    }
+  }
+  .left{
+    display: flex;
+    flex-flow: row;
+    column-gap: 12px;
+    margin-left: 20px;
+    .container{
+      width: 110px;
+      height: 110px;
+      padding: 20px;
+      border: 2px solid #e8ebf0;
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      -o-border-radius: 8px;
+      & img{
+      width: 75px;
+      height: 75px;
+      object-fit: scale-down;
+    } 
+    }
+
+  }
+  .mid6{
+    text-align: center;
+    padding: 30px 0;
+    & p{
+      font-family: Iran;
+      font-size: 11px;
+      color: #83878D;
+    }
+  }
+  .bottom{
+    background-color:#F0F0F1 ;
+    .top{
+      display: flex;
+      flex-flow: row;
+      margin: 0 auto;
+      .logos{
+        padding: 3vw;
+        background-color:#F0F0F1 ;
+        border: 1px solid #E0E0E2;
+      }
+    }
+  }
 }
