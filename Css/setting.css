@@ -4,5 +4,5 @@
   box-sizing: border-box;
   direction: rtl;
   z-index: 20;
-
+  scroll-behavior: smooth;
 }

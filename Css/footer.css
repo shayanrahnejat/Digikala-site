@@ -1,0 +1,139 @@
+footer {
+  margin: 30px 0 0 0;
+  .top {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 95vw;
+    margin: auto;
+    & > svg {
+      width: 113px;
+      height: 30px;
+    }
+    & > a {
+      display: flex;
+      width: 141px;
+      height: 41px;
+      text-decoration: none;
+      text-align: center;
+      border: 1px solid #a1a3a8;
+      line-height: 41px;
+      color: #a1a3a8;
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      -o-border-radius: 8px;
+      & p {
+        margin: 0 10%;
+        font-family: Iran;
+        font-size: 12px;
+      }
+      & svg {
+        align-self: center;
+      }
+    }
+  }
+  .mid1 {
+    color: #3F4064;
+    margin: 20px 25px 20px 0;
+    display: flex;
+    flex-flow: row;
+    direction: rtl;
+    font-family: Iran;
+    font-size: 12px;
+        & div{
+      width: 1.5px;
+      height: 60%;
+      background-color: #3F4064;
+      margin: 0 10px;
+    }
+    .num {
+      direction: ltr;
+    }
+
+  }
+  .mid2{
+    display: flex;
+    flex-flow: row;
+    width: 90vw;
+    height: 17.23vh;
+    column-gap: 12vw;
+    font-family: Iran;
+    font-size: 11px;
+    margin: auto;
+    .container{
+      display: flex;
+      flex-flow: column;
+      text-align: center;
+      & svg{
+        margin: 5px auto;
+      }
+    }
+  }
+  .mid3{
+    width: fit-content;
+    margin: 30px auto;
+    display: flex;
+    flex-flow: row;
+    column-gap: 14.1vw;
+    .container{
+      row-gap: 3vh;
+      display: flex;
+      flex-flow: column;
+      font-family: Iran;
+      .icons{
+        display: flex;
+        flex-flow: row;
+        column-gap: 2vw;
+      }
+      .search{
+        display: flex;
+        flex-flow: row;
+        column-gap: 0.75vw;
+      .searchbox{
+        width: 17vw;
+        height: 7.3vh;
+        background-color: #F0F0F1;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+          & input{
+          height: 7.3vh;
+          width: 17vw;
+          background-color: transparent;
+          border: none;
+
+        }
+        & input:focus, & input:active{
+          border: none;
+          background-color: transparent;
+          outline: unset;
+        }
+      }
+      & button{
+        width: 4vw;
+        height: 7.6vh;
+        background-color: #E0E0E2;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+  }}
+      .main{
+        font-size: 16px;
+        color: #3F4064;
+      }
+      & p{
+        font-size: 14px;
+        color: #81858B;
+      }
+    }
+
+  }
+}
