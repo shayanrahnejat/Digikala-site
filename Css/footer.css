@@ -214,8 +214,11 @@ footer {
         font-size: 12px;     
         display: none; 
         z-index: 0;  
+        cursor: pointer;
       }
-
+      .ext{
+        cursor: pointer;
+      }
       input[id="extend"]:checked  ~ p{
         overflow: visible;
         height: fit-content;

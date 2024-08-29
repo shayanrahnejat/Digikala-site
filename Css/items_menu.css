@@ -507,3 +507,11 @@
   }
 }
 /* items menu10 end */
+.items_menu11{
+  width: 100%;
+  height: 10vh;
+  background-color: #EF3C51;
+  background-image: url(../images/header.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}

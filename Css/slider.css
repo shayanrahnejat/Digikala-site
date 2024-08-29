@@ -233,3 +233,101 @@
   }
 }
 /* slider4 end */
+
+/* slider5 start */
+.swiper5{
+  background-color: #E3123C;
+  margin: 30px auto;
+  width: 97vw;
+  height: fit-content;
+  display: flex;
+  flex-flow: column;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+    .top{
+    display: flex;
+    margin: 25px 25px;
+    & h1{
+      color: white;
+      font-family: Iran;
+      font-size: 16px;
+    }
+  }
+  .swiper-wrapper{
+    display: flex;
+    width: 95% !important;
+    margin: 0 25px;
+    margin-bottom: 10px;
+    border: 1px solid #E3123C;
+  .swiper-slide{
+    width: 45% !important;
+    height: fit-content;
+    display: flex;
+    flex-flow: column ;
+    background-color: white;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+        
+        & img{
+      width: 113px;
+      height: 13px;
+      margin: 15px 15px 0 0;
+    }
+    .but{
+      display: flex;
+      justify-content: space-between;
+    & img{
+      width: 200px;
+      height: 200px;
+    }
+    .left{
+      margin-top: 30px;
+      margin-left: 15px;
+      font-family: Iran;
+      width: 100%;
+      &> p{
+        font-size: 12px;
+        font-weight: 700;
+        color: #3F4064;
+        height: 53px;
+      }
+      .star{
+        display: flex;
+        justify-content: flex-start;
+        direction: ltr;
+        & p{
+          font-size: 12px;
+        }
+      }
+      .price{
+        display: flex;
+        justify-content: space-between;
+        .lef{
+        color: #28293a;   
+        }
+       .rig{
+        width: 36px;
+        height: 19px;
+        background-color: #E3123C;
+        color: white;
+        text-align: center;
+        font-size: 14px;
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+}
+      }
+    }
+  }
+  }
+}
+}
+/* slider5 end */
