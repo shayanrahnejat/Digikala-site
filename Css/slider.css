@@ -501,3 +501,162 @@
   }
 }
 /* slider7 end */
+
+/* swiper8 start */
+    .swiper8{
+      border-radius: 16px;
+      -webkit-border-radius: 16px;
+      -moz-border-radius: 16px;
+      -ms-border-radius: 16px;
+      -o-border-radius: 16px; 
+      margin: 20px auto;
+      font-family: Iran;
+      display: flex;
+      border: 1px solid #EBEBED;
+      flex-flow: column;
+      height: 57vh;
+      width: 98%;
+      
+
+      .bar{
+        border: 1px solid red;
+        width: 5%;
+        margin-right: 30px;
+        margin-top: -5px;
+      }
+      .top{
+        text-align: center;
+        display: flex;
+        padding: 20px 10px;
+        margin-right: 20px;
+        & h1{
+        font-size: 16px;
+      }}
+      .swiper-wrapper{
+        .swiper-slide {
+          border-radius: 8px;
+          -webkit-border-radius: 8px;
+          -moz-border-radius: 8px;
+          -ms-border-radius: 8px;
+          -o-border-radius: 8px;
+          overflow: hidden;
+          background-color: white;
+          font-family: Iran;
+          font-size: 12px;
+          width: 14% !important;
+          height: fit-content;
+          padding: 12px !important;
+          margin: auto;
+          margin-left: 8px !important;
+          .progrbar{
+            text-align: left;
+            width: 75%;
+            border: 2px solid red;
+            margin-top: 7px;
+            border-radius: 3px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            -ms-border-radius: 3px;
+            -o-border-radius: 3px;
+            float: left;
+}
+          .prodImage {
+            & img {
+              margin-right: 13px ;
+              width: 150px;
+              height: 150px;
+              /* object-fit: fill; */
+            }
+          }
+          .time{
+            display: flex;
+            flex-flow: row-reverse;
+            margin-top: 12px;
+            color: red;
+            font-size: 12px;
+            .spc{
+              width: 10px;
+              text-align: center;
+            }
+          }
+          .prodName{
+            font-family: Iran;
+            font-size: 12px;
+            font-weight: 600;
+            color: #3f4064;
+            line-height: 30px;
+          }
+            .price {
+            width: 100%;
+            display: flex;
+            margin-top: 10px;
+            flex-flow: row-reverse;
+            & p{
+              width: 80%;
+              text-align: left;
+              font-size: 16px;
+            }
+            .off{
+              width: 20%;
+              background-color: #d92f4e;
+              text-align: center;
+              border-radius: 8px; 
+              -webkit-border-radius: 8px;
+              -moz-border-radius: 8px;
+              -ms-border-radius: 8px;
+              -o-border-radius: 8px;
+              color: white;
+              margin: auto;
+    }
+          }
+          .old{
+            text-align: left;
+            width: 100%;
+            display: inline-block;
+            font-family: Iran;
+            font-weight:100;
+            color: #C0C2C5;
+            margin-left: 14px;
+    
+          }
+          .sepcon {
+            text-align: center;
+            background-color: #EF3C52 !important;
+            margin: 40px auto;
+            width: fit-content;
+            height: auto;
+            & img{
+              width: 145px;
+              height: 145px;
+            }
+            .countdown {
+              display: flex;
+              text-align: center;
+              flex-flow: row-reverse;
+              width: fit-content;
+              font-family: Iran;
+              margin: 10px auto;
+    
+              .space {
+                color: white;
+                height: 32px;
+                width: 8px;
+                font-size: 1.5rem;
+              }
+              & p {
+                line-height: 26px;
+              }
+            }
+            .amazingIdea {
+              & svg {
+                width: 88px;
+                height: 88px;
+              }
+    
+          }
+    
+        }
+      }
+      }
+    }
+/* swiper8 end */
