@@ -236,7 +236,9 @@
 
 /* slider5 start */
 .swiper5{
+  background-image: url(../images/deal-pattern.svg);
   background-color: #E3123C;
+  background-repeat: repeat-x;
   margin: 30px auto;
   width: 97vw;
   height: fit-content;
@@ -305,11 +307,31 @@
           font-size: 12px;
         }
       }
+      .time{
+        display: flex;
+        flex-flow: row-reverse;
+        margin-top: 32px;
+        color: red;
+        font-size: 12px;
+        .spc{
+          width: 10px;
+          text-align: center;
+        }
+      }
+      & del{
+        text-align: left;
+        width: 100%;
+        display: block;
+        color: #C0C2C5;
+        font-size: 14px;
+        }
       .price{
         display: flex;
         justify-content: space-between;
         .lef{
         color: #28293a;   
+        margin-top: 5px;
+        }
         }
        .rig{
         width: 36px;
@@ -329,5 +351,5 @@
   }
   }
 }
-}
+
 /* slider5 end */
